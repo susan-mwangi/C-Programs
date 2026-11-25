@@ -58,14 +58,7 @@ void levelorder(struct Node* root) {
 }
 
 int main() {
-    // Build tree from your Exercise
-    //        A
-    //      /   \
-    //     B     C
-    //    /     / \
-    //   D     E   F
-    //        /   / \
-    //       G   H   I
+
     struct Node* root = createNode('A');
     root->left = createNode('B');
     root->right = createNode('C');
